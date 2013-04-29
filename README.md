@@ -5,6 +5,7 @@ Flowcoin - an optimized version of Litecoin based on Bitcoin.
 The rest is the same as litecoin.
  - 100 coins per block
  - subsidy halves in 840k blocks
+ - Blocks mined every 10 seconds
  - ~336 million total coins
 
 Development process
