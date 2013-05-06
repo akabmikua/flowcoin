@@ -1991,7 +1991,7 @@ bool LoadBlockIndex(bool fAllowNew)
             return false;
 			
         // Genesis block
-        const char* pszTimestamp = "whiskers75 mines the genesis block of FlowCoin for the future in April 2011"; // It wasn't 2011
+        const char* pszTimestamp = "Here we go to make the next-generation of Crypto-Currency! 6 May 2013";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2005,12 +2005,12 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nVersion = 1;
         block.nTime    = 1367166541;
         block.nBits    = 487063544;
-        block.nNonce   = 68283704;
+        block.nNonce   = 0;
 
         if (fTestNet)
         {
             block.nTime    = 1317798646;
-            block.nNonce   = 385270584;
+            block.nNonce   = 0;
         }
 
         //// debug print
