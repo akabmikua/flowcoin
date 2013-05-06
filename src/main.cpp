@@ -2003,13 +2003,13 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1367166541;
+        block.nTime    = 1367855877;
         block.nBits    = 487063544;
         block.nNonce   = 0;
 
         if (fTestNet)
         {
-            block.nTime    = 1317798646;
+            block.nTime    = 1367855877;
             block.nNonce   = 0;
         }
 
